@@ -14,7 +14,7 @@ body,
   height: 100vh;
   overflow: hidden;
   font-size: 16px;
-  background: darkslategray;
+  background: rgb(34, 34, 34);
 }
 
 button {
