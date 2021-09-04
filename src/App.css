@@ -50,6 +50,7 @@ button:hover {
 }
 .app-sidebar-header h1 {
   margin: 0;
+  color: white;
 }
 
 .app-sidebar-notes {
@@ -131,6 +132,7 @@ textarea {
   border-top: 1px solid #ddd;
   overflow-y: scroll;
   background: rgba(0, 0, 0, 0.02);
+  scrollbar-color: rgb(73, 72, 72);
 }
 
 .preview-title {
