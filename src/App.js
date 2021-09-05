@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import uuid from 'react-uuid'
 import './App.css'
 import Sidebar from './Sidebar'
-import Main from './Main'
-import Home from './Home'
+// import Main from './Main'
+// import Home from './Home'
 
 function App() {
   const [notes, setNotes] = useState(
@@ -31,21 +31,21 @@ function App() {
     setNotes(notes.filter(({ id }) => id !== noteId));
   };
 
-  const onUpdateNote = (updatedNote) => {
-    const updatedNotesArr = notes.map((note) => {
-      if (note.id === updatedNote.id) {
-        return updatedNote;
-      }
+  // const onUpdateNote = (updatedNote) => {
+  //   const updatedNotesArr = notes.map((note) => {
+  //     if (note.id === updatedNote.id) {
+  //       return updatedNote;
+  //     }
 
-      return note;
-    });
+  //     return note;
+  //   });
 
-    setNotes(updatedNotesArr);
-  };
+  //   setNotes(updatedNotesArr);
+  // };
 
-  const getActiveNote = () => {
-    return notes.find(({ id }) => id === activeNote);
-  };
+  // const getActiveNote = () => {
+  //   return notes.find(({ id }) => id === activeNote);
+  // };
 
   return (
     <div className="App">
@@ -59,7 +59,7 @@ function App() {
         activeNote={activeNote}
         setActiveNote={setActiveNote}
       />
-      <Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
+      {/* <Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} /> */}
     </div>
   );
 }

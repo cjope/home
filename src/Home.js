@@ -1,6 +1,11 @@
 function Home() {
 
-    return <button >Play isWab</button>
+    return ( 
+    <div>
+        <p>This is where Home.js lives</p>
+    </div>
+    
+    )
 }
 
 export default Home
