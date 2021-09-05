@@ -1,10 +1,6 @@
 function Home() {
 
-    return(
-        <div>
-            <button >Play isWab</button>
-        </div>
-    )
+    return <button >Play isWab</button>
 }
 
 export default Home
