@@ -48,14 +48,14 @@ function App() {
 
   return (
     <div className="App">
-      <Sidebar
-        notes={notes}
-        onAddNote={onAddNote}
-        onDeleteNote={onDeleteNote}
-        activeNote={activeNote}
-        setActiveNote={setActiveNote}
-      />
-      <Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} />
+      {/* <Sidebar */}
+        {/* notes={notes} */}
+        {/* onAddNote={onAddNote} */}
+        {/* onDeleteNote={onDeleteNote} */}
+        {/* activeNote={activeNote} */}
+        {/* setActiveNote={setActiveNote} */}
+      {/* /> */}
+      {/* <Main activeNote={getActiveNote()} onUpdateNote={onUpdateNote} /> */}
     </div>
   );
 }
