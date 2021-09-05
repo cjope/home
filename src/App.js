@@ -49,6 +49,10 @@ function App() {
 
   return (
     <div className="App">
+
+      <Home/>
+
+
       {/* <Sidebar */}
         {/* notes={notes} */}
         {/* onAddNote={onAddNote} */}
