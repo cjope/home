@@ -1,4 +1,4 @@
-var JoyStick = (function(container, parameters){
+function JoyStick(container, parameters){
 	parameters = parameters || {};
 	var title = (typeof parameters.title === "undefined" ? "joystick" : parameters.title),
 		width = (typeof parameters.width === "undefined" ? 0 : parameters.width),
@@ -200,4 +200,6 @@ var JoyStick = (function(container, parameters){
 		}
 		return result;
 	};
-});
+};
+
+export default JoyStick
